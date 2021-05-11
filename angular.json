@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "481b1f0c-5a0c-4dc9-8fa7-ebc2ede01f7e"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -96,7 +99,7 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": ["../node_modules/pusher-js/dist/web/pusher.min.js"]
           }
         },
         "lint": {
